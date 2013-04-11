@@ -1,0 +1,97 @@
+html,body{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,cite,code,del,dfn,em,img,q,s,samp,small,strike,strong,sub,sup,tt,var,dd,dl,dt,li,ol,ul,fieldset,form,label,legend,button,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;font-weight:normal;font-style:normal;font-size:100%;line-height:1;font-family:inherit;}
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block;}
+audio[controls],canvas,video{display:inline-block;*display:inline;*zoom:1;}
+.sans-serif{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;}
+.serif{font-family:"Cambria, Georgia, Times, " Times New Roman;}
+.monospace{font-family:"Monaco",Courier New,monospace;}
+.clearfix{zoom:1;}.clearfix:before,.clearfix:after{content:"\0020";display:block;height:0;overflow:hidden;}
+.clearfix:after{clear:both;}
+
+.PopulaireLight{color: #4f3612;font-family:PopulaireLight;font-weight:normal;font-style:normal;}
+.Populaire{color: #4f3612;font-family:Populaire;font-weight:normal;font-style:normal;}
+.end{font-size:14px;padding-top:40px;}
+html{overflow-y:scroll;background: #d0edf3;
+	background: -moz-linear-gradient(top, #d0edf3 0%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d0edf3), color-stop(100%,#ffffff));
+	background: -webkit-linear-gradient(#d0edf3, #ffffff);
+	background: -o-linear-gradient(top, #d0edf3 0%,#ffffff 100%);
+	background: -ms-linear-gradient(top, #d0edf3 0%,#ffffff 100%);
+	background: linear-gradient(top, #d0edf3 0%,#ffffff 100%);
+	font-size:62.5%;}
+body{margin:0 auto;padding:0;width:90%;font-size:16px;font-size:1.6rem;font-family:"Cambria, Georgia, Times, " Times New Roman;color:#282828;background-color:transparent;}
+h1{background:url(/images/birds_branch.png)top left no-repeat;margin-bottom:0.25em;font-size:60px;font-size:6.0rem;line-height:1;padding-top:120px;}
+h2{margin:1em 0em 0.5em 0em;font-size:38px;font-size:3.8rem;line-height:1.2;}
+
+p,ol,ul,dl,address{margin-bottom:1.5em;font-size:16px;font-size:1.6rem;}
+p{color: #4f3612;font-family: Courier;hyphens:auto;text-align:justify;}
+strong{font-weight:bold;}
+small{font-size:14px;font-size:1.4rem;}
+a{color:#ff6e84;text-decoration:none;}
+a:visited{color:#ff6e84;text-decoration:none;}
+a:hover{background:white;color:#ff6e84;text-decoration:none;}
+a:focus{outline:thin dotted;color:#011b35;}
+a:hover,a:active{outline:0;}
+img{border:0;max-width:100%;-moz-box-shadow: 0px 8px 6px -6px #888;-webkit-box-shadow: 0px 8px 6px -6px #888;box-shadow: 0px 8px 6px -6px #888;}
+svg:not(:root){overflow:hidden;}
+html{-webkit-overflow-scrolling:touch;-webkit-tap-highlight-color:#c3d9e6;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+::-webkit-selection{background:#e6e6e6;color:#fafafa;text-shadow:none;}
+::-moz-selection{background:#7bacc8;color:#c8977b;text-shadow:none;}
+::selection{background:#7bacc8;color:#c8977b;text-shadow:none;}
+button,input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;}
+::-webkit-input-placeholder{font-size:14px;font-size:1.4rem;}
+input:-moz-placeholder{font-size:14px;font-size:1.4rem;}
+.ie7 img,.iem7 img{-ms-interpolation-mode:bicubic;}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;}
+input[type="search"]{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;}
+button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0;}
+p{-webkit-hyphens:auto;-webkit-hyphenate-character:"\2010";-webkit-hyphenate-limit-after:1;-webkit-hyphenate-limit-before:3;-moz-hyphens:auto;}
+.ir{display:block;overflow:hidden;background-repeat:no-repeat;text-align:left;text-indent:-999em;direction:ltr;}
+.ir br{display:none;}
+.hidden{display:none;visibility:hidden;}
+.visuallyhidden{position:absolute;margin:-1px;padding:0;height:1px;width:1px;overflow:hidden;border:0;clip:rect(0 0 0 0);}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{position:static;margin:0;height:auto;width:auto;overflow:visible;clip:auto;}
+.invisible{visibility:hidden;}
+@media print{*{background:transparent !important;color:black !important;text-shadow:none !important;filter:none !important;-ms-filter:none !important;} @page {margin:0.5cm;}h2,h3{orphans:3;widows:3;page-break-after:avoid;} p{orphans:3;widows:3;} pre,blockquote{border:1px solid #808080;page-break-inside:avoid;} abbr[title]:after{content:" (" attr(title) ")";} a,a:visited{color:#000000 !important;text-decoration:underline;} a[href]:after{content:" (" attr(href) ")";} a[href^="javascript:"]:after,a[href^="#"]:after{content:"";} img{max-width:100% !important;page-break-inside:avoid;} thead{display:table-header-group;} tr{page-break-inside:avoid;} .ir a:after{content:"";}}
+@media only screen and (min-width: 480px){}
+@media only screen and (min-width: 600px){}
+@media only screen and (min-width: 768px){
+.birds {
+	background: url(/images/birds_ipad.png) fixed top left no-repeat;
+	margin: 0;
+	padding: 0;
+}
+.text {
+	margin: 0 0 0 50%;
+	padding-bottom: 5px;
+	padding-top: 25px;
+	width: 50%;
+}
+.end{font-size:14px;padding-top:40px;margin-left: 50%;}
+h1{background:none;margin-bottom:0.25em;margin-left:50%;font-size:60px;font-size:6.0rem;line-height:1;padding-top:40px;}
+h2{margin:1em 0em 0.5em 0em;font-size:38px;font-size:3.8rem;line-height:1.2;}
+}
+@media only screen and (min-width: 1200px) {
+html {
+	background: url(/images/bg.png) fixed top left repeat-x;
+	margin: 0;
+	padding: 0;
+}
+.birds {
+	background: url(/images/birds.png) fixed top left no-repeat;
+	margin: 0;
+	padding: 0;
+}
+.text {
+	margin: 0 0 0 60%;
+	padding-bottom: 5px;
+	padding-top: 25px;
+	width: 500px;
+}
+.end{font-size:14px;padding-top:40px;margin-left: 60%;}
+h1{background:none;margin-bottom:0.25em;margin-left:60%;font-size:60px;font-size:6.0rem;line-height:1;padding-top:60px;}
+h2{margin:1em 0em 0.5em 0em;font-size:38px;font-size:3.8rem;line-height:1.2;}
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5){}

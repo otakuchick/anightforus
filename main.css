@@ -1,0 +1,68 @@
+.PopulaireLight { 
+	font-family: PopulaireLight;
+	font-weight: normal;
+	font-style: normal;
+}
+.Populaire { 
+	font-family: Populaire;
+	font-weight: normal;
+	font-style: normal;
+}
+
+html {
+	background: url(images/bg.png) fixed top left repeat-x;
+	margin: 0;
+	padding: 0;
+}
+
+.birds {
+	background: url(images/birds.png) fixed top left no-repeat;
+	margin: 0;
+	padding: 0;
+}
+
+.content {
+	margin-left: 50%;
+	padding-bottom: 5px;
+	padding-top: 25px;
+	width: 500px;
+}
+
+.end {
+	font-size: 14px;
+	padding-top: 50px;
+}
+
+h1 {
+	color: #4f3612;
+	font-size: 60px;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	color: #4f3612;
+	font-size: 38px;
+	margin: 0;
+	padding: 30px 0 0 0;
+}
+
+p {
+	color: #4f3612;
+	font-family: Courier;
+}
+
+a:link, a:visited {
+	color: #ff6e84;
+	text-decoration: none;
+}
+a:hover {
+	background: white;
+	text-decoration: none;
+}
+
+img {
+	-moz-box-shadow: 0px 8px 6px -6px #888;
+	-webkit-box-shadow: 0px 8px 6px -6px #888;
+	box-shadow: 0px 8px 6px -6px #888;
+}
